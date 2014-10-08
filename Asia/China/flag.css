@@ -1,0 +1,57 @@
+/* ====== Common ====== */
+.flag {
+  width: 800px;
+  height: 535px;
+  margin: 20px auto;
+  position: relative; }
+
+.star {
+  position: absolute; }
+
+.star:before, .star:after {
+  content: ' ';
+  position: absolute;
+  display: block; }
+
+/* ==== For Chinese Flag ==== */
+#china {
+  background-color: #fe0000; }
+  #china .star {
+    background: #ffff01; }
+  #china .star-big {
+    width: 18.4%;
+    height: 26.2%; }
+  #china .star-small {
+    width: 6.31%;
+    height: 8.97%; }
+  #china .star:before {
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #fe0000;
+    background-image: linear-gradient(144deg, transparent, transparent 82.8%, #fe0000 82.8%), linear-gradient(108deg, transparent, transparent 61.5%, #ffff01 61.5%), linear-gradient(36deg, #fe0000, #fe0000 44.5%, transparent 44.5%), linear-gradient(to bottom, transparent, transparent 39.4%, #ffff01 39.4%), linear-gradient(to right, #fe0000, #fe0000 76.1%, transparent 76.1%); }
+  #china .star:after {
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    background: #fe0000;
+    background-image: linear-gradient(-144deg, transparent, transparent 82.8%, #fe0000 82.8%), linear-gradient(-108deg, transparent, transparent 61.5%, #ffff01 61.5%), linear-gradient(-36deg, #fe0000, #fe0000 44.5%, transparent 44.5%), linear-gradient(to bottom, transparent, transparent 39.4%, #ffff01 39.4%), linear-gradient(to left, #fe0000, #fe0000 76.1%, transparent 76.1%); }
+  #china #star1 {
+    left: 7%;
+    top: 10.5%; }
+  #china #star2 {
+    left: 32.7%;
+    top: 4.6%; }
+  #china #star3 {
+    left: 40.8%;
+    top: 16.6%; }
+  #china #star4 {
+    left: 40.8%;
+    top: 33.6%; }
+  #china #star5 {
+    left: 32.7%;
+    top: 46%; }
+
+/*# sourceMappingURL=flag.css.map */
