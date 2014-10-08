@@ -1,2 +1,2 @@
-cssflag - National Flag by pure CSS
+cssflag - Flags by pure CSS
 =======
